@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'rails',                      '6.0.2.1'
+ruby '2.6.5'
 gem 'image_processing',           '1.9.3'
 gem 'mini_magick',                '4.9.5'
 gem 'active_storage_validations', '0.8.2'
@@ -16,6 +17,8 @@ gem 'webpacker',                  '4.0.7'
 gem 'turbolinks',                 '5.2.0'
 gem 'jbuilder',                   '2.9.1'
 gem 'bootsnap',                   '1.4.5', require: false
+
+gem 'win32console', '~> 1.3', '>= 1.3.2'
 
 group :development, :test do
   gem 'sqlite3', '1.4.1'
